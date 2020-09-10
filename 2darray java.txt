@@ -2,3 +2,10 @@ syntax:
 datatype array_name[][]=new datatype[row_size][column_size];
 e.g:
 int arr2d[][]=new int[4][5];  ->> it will create a 2d array having 4 rows and 5 columns
+
+
+by default after declaratuion of an integer array whether 1d or 2d it gets initialized with 0
+
+int arr2d[0][2]=15;
+System.out.println(arr[0][2]);
+-> this will print 15 as output
