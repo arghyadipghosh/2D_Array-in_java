@@ -9,3 +9,6 @@ by default after declaratuion of an integer array whether 1d or 2d it gets initi
 int arr2d[0][2]=15;
 System.out.println(arr[0][2]);
 -> this will print 15 as output
+
+int arr2d[][]={{1,2,3},{4,5,6}};
+-> this is another way to initilise a 2d array
